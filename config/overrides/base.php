@@ -1,7 +1,8 @@
+<?php
 return [
-	'basePath' = realpath(_DIR_.'/../../'),
-	'components' = [
-		'db' = [
+	'basePath' => realpath(__DIR__.'/../../'),
+	'components' => [
+		'db' => [
 			'class' => '\yii\db\Connection'
 		],
 	]
